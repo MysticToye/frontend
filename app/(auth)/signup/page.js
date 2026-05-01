@@ -36,7 +36,7 @@ export default function SignupPage() {
       setIsLoading(true);
       // Calls /api/signup on the backend
       const response = await api.post("/signup", {
-        fullName: formData.fullName,
+        name: formData.fullName,
         email: formData.email,
         password: formData.password,
       });
