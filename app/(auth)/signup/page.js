@@ -20,7 +20,7 @@ export default function SignupPage() {
           <h1 className="text-4xl font-extrabold text-[#111827] mb-2">Create an Account</h1>
         </div>
 
-        <form className="space-y-5 mb-10" action="/skills">
+        <form className="space-y-5 mb-10" action="/verify">
           <Input 
             type="text" 
             placeholder="Full Name" 
